@@ -18,10 +18,14 @@ public class BasicAddition {
 		 * the Statement
 		 */
 		int sumOftheValues = value1 + value2;
-		System.out.println("Result: " + sumOftheValues);
-		
-		/**/
+		System.out.println("Result1: " + sumOftheValues);
 
+		/*
+		 * Approach 3: Perform the addition operation using by directly adding the
+		 * values in the Print statement
+		 */
+		System.out.println("Result2: "+(value1+value2));
+		
 	}
 
 }
